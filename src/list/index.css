@@ -1,0 +1,23 @@
+
+.box {
+    box-shadow: rgb(46 165 226) 4px 2px 14px;
+      width: 600px;
+      margin: 20px auto;
+      background-color: white;
+      border-radius: 10px;
+      display: table;
+    height: 60px;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 20px;
+
+  }
+    .box-item {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .checked {
+        text-decoration: line-through;
+    color: grey;
+    }
